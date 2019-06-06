@@ -1,0 +1,46 @@
+
+
+.flexcolcenter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.terminal {
+  height: 70vh;
+  min-height: 10em;
+  max-height: 25em;
+  background: #222e32;
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 0em 0em 1.3em 0em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  box-shadow: 0px 12px 40px 2px rgba(0, 0, 0, 0.27);
+
+  display:flex;
+  flex-direction: column;
+  /* round top edges */
+  border-radius: 0.5em;
+}
+
+@media(max-width: 768px){
+  .terminal {
+    margin-bottom: 0.5em;
+  }
+}
+
+.content {
+  overflow: hidden;
+  overflow-x: hidden;
+  flex:1;
+  /* terminal text padding */
+  padding-left: 1.5em;
+  padding-right: 1em;
+  padding-top: 1em;
+
+}
+
