@@ -66,7 +66,7 @@ const Textpage: React.FC<Props> = (props) => {
               </div>
 
 <div className="row justify-content-center" >
-            <a href="#">
+            <a href="https://github.com/qngapparat">
               <button
                 className="btn btn-default mybtn"
               >
@@ -74,13 +74,6 @@ const Textpage: React.FC<Props> = (props) => {
               </button>
             </a>
 
-            <a href="#">
-              <button
-                className="btn btn-default mybtn"
-              >
-                <strong>LinkedIn</strong>
-              </button>
-            </a>
 </div>
           </div>
         </Paragraph>
