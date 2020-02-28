@@ -51,10 +51,8 @@ const Textpage: React.FC<Props> = (props) => {
               </div>
 
             <div className="text">
-              If you happen to design a product: Satisfaction costs 9 units of work. Bliss costs 10 units.
-
               <br />
-              If you create something, you might as well do it really well. It is not that much extra work. But it creates raving, returning users. And feels great. Who wants to work on something that's just 'ok'? Nobody.
+              If you create, quality over quantity. Put extra thought on how users will interact with it. Plus it feels great. Nobody wants to work on something that's just 'ok'.
               </div>
             <hr />
 
