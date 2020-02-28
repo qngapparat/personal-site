@@ -1,9 +1,8 @@
 const files: any = {
-  "cv": "Full-stack JavaScript engineer. Specialized in Node and React / React Native. \n Working on my Computer Science BSc in Hong Kong & Innsbruck.",
-  "advice": "If you happen to design a product: Satisfaction costs 9 units of work. Bliss costs 10 units. If you create something, you might as well do it really well. It is not that much extra work. But it creates raving, returning users. And feels great. Who wants to work on something that's just 'ok'? Nobody.",
+  "cv": "Full-stack JavaScript engineer. Specialized in Node and React / React Native. \n Working on my Computer Science BSc in Hong Kong & Innsbruck\n",
+  "me": "🏋️‍♂️ 🏊‍♂️ 🗻 🛫 🍹",
   "contact": "Shoot me an Email at jakob. wallnoefer @outlook.com. I read them all."
 }
-
 interface Shell {
   ls: () => string[],
   cat: (args: string[]) => string[],
