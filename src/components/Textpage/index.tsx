@@ -52,8 +52,7 @@ const Textpage: React.FC<Props> = (props) => {
 
             <div className="text">
               <br />
-              If you create, quality over quantity. Put extra thought on how users will interact with it. Plus it feels great. Nobody wants to work on something that's just 'ok'.
-              </div>
+              If you create, quality over quantity. Put extra thought on how users will interact with it. Make it more simple, slim it down, use it yourself. Plus it feels great. Nobody truly wants to work on something that is just 'ok'.              </div>
             <hr />
 
             <div className="header">
