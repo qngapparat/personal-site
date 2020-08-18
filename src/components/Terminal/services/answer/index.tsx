@@ -1,5 +1,5 @@
 const files: any = {
-  "cv": "Full-stack JavaScript engineer. Specialized in Node and React / React Native. \n Working on my Computer Science BSc in Hong Kong & Innsbruck\n",
+  "cv": "Full-stack JavaScript engineer. Specialized in Node and React / React Native. BSc CompSci (Innsbruck & Hong Kong)\n",
   "me": "🏋️‍♂️ 🏊‍♂️ 🗻 🛫 🍹",
   "contact": "Shoot me an Email at jakob. wallnoefer @outlook.com. I read them all."
 }

@@ -38,11 +38,9 @@ const App = () => {
           onExitTerminal={toggleView}
           visible={view === "terminal"}
         />
-
         <Textpage 
           visible={view === "normal"}
         />
-       
       </div>
     </div>
   )

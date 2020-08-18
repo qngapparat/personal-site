@@ -13,69 +13,72 @@ const Textpage: React.FC<Props> = (props) => {
       {props.visible
         &&
         <Paragraph key="textpage">
-          <div className="all">
-
-            <div className="title">
-              Jakob Fridolin Wallnöfer
-              </div>
-            <div className="myhr"></div>
-
-
-            <div className="header">
-              About me
-              </div>
-
+      
+        <div className="all">
+          <div className="title">
+            Jakob Fridolin Wallnöfer
+          </div>
+          <div className="myhr"></div>
+          <div className="header">
+            About me
+          </div>
+          <ul>
+            <div className="text">
+              <li>
+                Full-stack JavaScript engineer based in Innsbruck & Hong Kong
+              </li>
+              <li>
+                Specialized in Node and React & React Native (4y+)
+              </li>
+              <li>
+                BSc Computer Science
+              </li>
+            </div>
+          </ul>
+          <hr />
+          <div className="header">
+            Previously
+          </div>
+          <ul>
+            <div className="text">
+              <li>
+                2019: At a Fintec startup, worked on APIs with banking partners. Ported app to Android & implemented DevOps (CI, CD)
+              </li>
+              <li>
+                2020 - today: Scientific collaboration with UIBK's Distributed & Parallel Systems Dept.
+              </li>
+            </div>
+          </ul>
+          <hr />
+          <div className="header">
+            Principles I find helpful (sporadically updated)
+          </div>
+          <div className="text">
             <ul>
-              <div className="text">
-                <li>
-
-                  Full-stack JavaScript engineer based in Innsbruck & Hong Kong.
-    
-  </li>
-
-                <li>
-
-                  Specialized in Node and React & React Native.
-  </li>
-
-                <li>
-                  Working on my BSc in Computer Science until 2020.
-       </li>
-              </div>
-
+              <li>Think long-term, 10 or 20 years, if you aren't in an immediate rut and have that opportunity.</li>
+              <li>Have a system in place to make small decisions - such as flipping a coin, a dogma ('Given this choice, I always do ...'), or a simple algorithm.</li>
+              <li>Inspiration is perishable. so if you are inspired, do it right away (Naval Ravikant).
+              </li>
+              <li>Overdoing something (programming, learning a language, sport) is a good way to lose the joy in it forever. Life is a marathon.
+              </li>
             </ul>
-            <hr />
-
-            <div className="header">
-              One thing to take with you
-              </div>
-
-            <div className="text">
-              <br />
-              If you create, quality over quantity. Put extra thought on how users will interact with it. Plus it feels great. Nobody wants to work on something that's just 'ok'.
-              </div>
-            <hr />
-
-            <div className="header">
-              Get in touch
-              </div>
-
-            <div className="text">
-              Shoot me an Email at jakob. wallnoefer @outlook.
-              com. <br />I read them all.
-              </div>
-
-<div className="row justify-content-center" >
+          </div>
+          <hr />
+          <div className="header">
+            Get in touch
+          </div>
+          <div className="text">
+            Shoot me an Email at jakob. wallnoefer @outlook.
+            com. I read them all.
+          </div>
+          <div className="row justify-content-center">
             <a href="https://github.com/qngapparat">
-              <button
-                className="btn btn-default mybtn"
-              >
+              <button className="btn btn-default mybtn">
                 <strong>GitHub</strong>
               </button>
             </a>
-
-</div>
           </div>
+        </div>
         </Paragraph>
       }
     </PoseGroup>
