@@ -61,6 +61,9 @@ const Textpage: React.FC<Props> = (props) => {
               </li>
               <li>Overdoing something (programming, learning a language, sport) is a good way to lose the joy in it forever. Life is a marathon.
               </li>
+              <li>
+              Luck is the residue of design.
+              </li>
             </ul>
           </div>
           <hr />
