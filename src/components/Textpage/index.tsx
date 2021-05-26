@@ -42,10 +42,10 @@ const Textpage: React.FC<Props> = (props) => {
           <ul>
             <div className="text">
               <li>
-                2019: At a Fintec startup, worked on APIs with banking partners. Ported app to Android & implemented DevOps (CI, CD)
+                2019: At a great fintec startup. Check them out -> <a href="https://monkee.rocks/">monkee.rocks</a>
               </li>
               <li>
-                2020 - today: Scientific collaboration with UIBK's Distributed & Parallel Systems Dept.
+                2020 - 2021: At UIBK's Distributed & Parallel Systems
               </li>
             </div>
           </ul>
@@ -55,15 +55,10 @@ const Textpage: React.FC<Props> = (props) => {
           </div>
           <div className="text">
             <ul>
-              <li>Think long-term, 10 or 20 years, if you aren't in an immediate rut and have that opportunity.</li>
-              <li>Have a system in place to make small decisions - such as flipping a coin, a dogma ('Given this choice, I always do ...'), or a simple algorithm.</li>
-              <li>Inspiration is perishable. so if you are inspired, do it right away (Naval Ravikant).
+              <li>Your brain is a neural net. All else follows (how to consume information, with what people to surround, where indecision comes from)</li>
+              <li>To do the right things, change the environment so it becomes easy. (A gym that's close, comfy running shoes, healthy food close in the fridge and bad food far away in the supermarket ...)</li>
               </li>
-              <li>Overdoing something (programming, learning a language, sport) is a good way to lose the joy in it forever. Life is a marathon.
-              </li>
-              <li>
-              Luck is the residue of design.
-              </li>
+           
             </ul>
           </div>
           <hr />
