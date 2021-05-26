@@ -57,7 +57,7 @@ const Textpage: React.FC<Props> = (props) => {
             <ul>
               <li>Your brain is a neural net. All else follows (how to consume information, with what people to surround, where indecision comes from)</li>
               <li>To do the right things, change the environment so it becomes easy. (A gym that's close, comfy running shoes, healthy food close in the fridge and bad food far away in the supermarket ...)</li>
-              </li>
+          
            
             </ul>
           </div>
